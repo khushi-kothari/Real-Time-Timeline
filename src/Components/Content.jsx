@@ -20,7 +20,7 @@ class Content extends Component {
     this.setState(
       {
         loading: false,
-        activities: data.sort(() => 0.5 - Math.random()).slice(0, 4)
+        activities: data.sort(() => 0.5 - Math.random()).slice(0, 8)
       },
       this.props.onComponentRefresh
     );
